@@ -4,6 +4,7 @@ while True:
         if angka < 0:
             print("Harus positif!")
         else:
+            print("angka benar")
             break
     except ValueError:
         print("Input tidak valid! Harap masukkan angka.")
